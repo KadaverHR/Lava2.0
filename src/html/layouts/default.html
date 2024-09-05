@@ -31,11 +31,11 @@
 </head>
 
 <body {% if bodyClass %}class="{{ bodyClass }}" {% endif %} id="body">
+  {% include "html/includes/header.html" %}
 
-
-
-  {% block content %}{% endblock %}
-
+  <main>
+    {% block content %}{% endblock %}
+  </main>
   {% include "html/includes/footer.html" %}
 
 
