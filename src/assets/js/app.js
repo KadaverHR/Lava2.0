@@ -118,14 +118,8 @@ $(document).ready(function () {
             hakaBlock.innerHTML = `	<div value = "block" class="haka" >
     <img src="assets/img/ball.png" >
     </div>`
-            hakaBlock.innerHTML = `	<div value = "block" class="haka" >
-    <img src="assets/img/ball.png" >
-    </div>`
             break;
           case 'map':
-            hakaBlock.innerHTML = `	<div value = "block" class="haka" >
-    <img src="assets/img/map.png" >
-    </div>`
             hakaBlock.innerHTML = `	<div value = "block" class="haka" >
     <img src="assets/img/map.png" >
     </div>`
@@ -134,14 +128,8 @@ $(document).ready(function () {
             hakaBlock.innerHTML = `	<div value = "block" class="haka" >
     <img src="assets/img/stylus.png" >
     </div>`
-            hakaBlock.innerHTML = `	<div value = "block" class="haka" >
-    <img src="assets/img/stylus.png" >
-    </div>`
             break;
           case 'hammer':
-            hakaBlock.innerHTML = `	<div value = "block" class="haka" >
-    <img src="assets/img/hammer.png" >
-    </div>`
             hakaBlock.innerHTML = `	<div value = "block" class="haka" >
     <img src="assets/img/hammer.png" >
     </div>`
@@ -150,14 +138,7 @@ $(document).ready(function () {
             hakaBlock.innerHTML = `	<div value = "block" class="haka" >
     <img src="assets/img/book.png" >
     </div>`
-            hakaBlock.innerHTML = `	<div value = "block" class="haka" >
-    <img src="assets/img/book.png" >
-    </div>`
             break;
-          case 0:
-            hakaBlock.innerHTML = `	<div value = "block" class="haka" >
-    <img src="assets/img/0.png" >
-    </div>`
           case 0:
             hakaBlock.innerHTML = `	<div value = "block" class="haka" >
     <img src="assets/img/0.png" >
@@ -2603,7 +2584,8 @@ $(document).ready(function () {
         'elite', 'elite', 'stone', 'mob', 'elite',
         'book', 'elite', 'mob', null, 'haka',
         null, 'mob', 'mob', 'elite', null,
-        'start', null, 'mob', null, 'elite']
+        'start', null, 'mob', null, 'elite'],
+    ]
 
     floor[44] = [
       // 44-1
@@ -2952,6 +2934,6 @@ $(document).ready(function () {
 
    
 
- 
+    return hakaList
   }
 })
