@@ -72,15 +72,6 @@ path.dist.script = path.dist.distPath + path.dist.script;
 
 path.watch.script = [];
 path.watch.script[0] = path.src.script[0].replace(path.src.script[0].split('/').pop(), '**/*.js');
-// /**
-//  * Libs path
-//  */
-path.src.libs[0] = path.src.srcPath + path.src.libs[0];
-
-path.dist.libs = path.dist.distPath + path.dist.libs;
-
-path.watch.libs = [];
-// path.watch.libs[0] = path.src.libs[0].replace(path.src.libs[0].split('/').pop(), '**/*.js');
 
 /**
  * Images path
@@ -159,19 +150,19 @@ function scss() {
     .pipe(gulpif(isDev(), sourcemaps.write()))
     .pipe(gulpif(isProd(), gulp.dest(path.dist.style)))
     .pipe(gulpif(isProd(), csso()))
-    .pipe(rename({suffix: '.min'}))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(path.dist.style))
-    .pipe(browserSync.reload({stream: true}))
+    .pipe(browserSync.reload({ stream: true }))
 }
 
 /**
  * Script
  */
 const webpackConf = {
-  mode: isDev() ? 'development' : 'production',
-  devtool: isDev() ? 'eval-source-map' : false,
+  mode: 'development',
+  devtool: false,
   optimization: {
-    minimize: false
+    minimize: false,
   },
   output: {
     filename: 'app.js',
@@ -189,26 +180,28 @@ if (isProd()) {
   });
 }
 
+// function script() {
+//   return gulp.src(path.src.script)
+//     .pipe(plumber())
+//     .pipe(webpackStream(webpackConf, webpack))
+//     .pipe(gulpif(isProd(), gulp.dest(path.dist.script)))
+//     .pipe(gulpif(isProd(), uglify()))
+//     .pipe(rename({ suffix: '.min' }))
+//     .pipe(gulp.dest(path.dist.script))
+//     .pipe(browserSync.reload({ stream: true }))
+// }
+
 function script() {
   return gulp.src(path.src.script)
     .pipe(plumber())
-    // .pipe(webpackStream(webpackConf, webpack))
+    .pipe(webpackStream(webpackConf, webpack))
     // .pipe(gulpif(isProd(), gulp.dest(path.dist.script)))
     // .pipe(gulpif(isProd(), uglify()))
     // .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest(path.dist.script))
-    .pipe(browserSync.reload({stream: true}))
+    .pipe(browserSync.reload({ stream: true }))
 }
-function libs() {
-  return gulp.src(path.src.libs)
-    // .pipe(plumber())
-    // .pipe(webpackStream(webpackConf, webpack))
-    // .pipe(gulpif(isProd(), gulp.dest(path.dist.script)))
-    // .pipe(gulpif(isProd(), uglify()))
-    // .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest(path.dist.libs))
-    // .pipe(browserSync.reload({stream: true}))
-}
+
 /**
  * Image min
  */
@@ -219,26 +212,24 @@ function imageMin() {
 
       imageminJpegRecompress({
         progressive: true,
-        min: 50,
-        max: 90,
-        quality: ['high']
+        min: 70, max: 75
       }),
-      
+
       pngquant({
         speed: 5,
-        quality: [0.6,0.8]
+        quality: [0.6, 0.8]
       }),
 
       imagemin.svgo({
         plugins: [
-          {removeViewBox: false},
-          {removeUnusedNS: false},
-          {removeUselessStrokeAndFill: false},
-          {cleanupIDs: false},
-          {removeComments: true},
-          {removeEmptyAttrs: true},
-          {removeEmptyText: true},
-          {collapseGroups: true}
+          { removeViewBox: false },
+          { removeUnusedNS: false },
+          { removeUselessStrokeAndFill: false },
+          { cleanupIDs: false },
+          { removeComments: true },
+          { removeEmptyAttrs: true },
+          { removeEmptyText: true },
+          { collapseGroups: true }
         ]
       })
 
@@ -315,7 +306,6 @@ function watch() {
   gulp.watch(path.watch.html, njk);
   gulp.watch(path.watch.style, scss);
   gulp.watch(path.watch.script, script);
-  gulp.watch(path.watch.libs, libs);
   gulp.watch(path.watch.image, image);
   gulp.watch(path.watch.font, font);
 }
@@ -325,6 +315,6 @@ function watch() {
  */
 exports.default = gulp.series(
   gulp.parallel(clean),
-  gulp.parallel(njk, scss, script, libs,image, font),
+  gulp.parallel(njk, scss, script, image, font),
   gulp.parallel(browsersync, watch)
 );
