@@ -1,0 +1,109 @@
+41-1
+null, `door`,`stone`,`mob`,  `haka`,
+null, `mob`,`elite`,null, `elite`,
+`mob`,`stone`,null,  `elite`,`stone`,
+`mob`,`mob`,`elite`,`mob`,  `elite`,
+`elite`, null, `mob`,null, `mob`,
+`stone`,`ball`,`mob`,null, null,
+null, `mob`,`elite`,`book`, `elite`,
+`start`,   null, `mob`,`map`, null,
+
+41-2
+null, `elite`, `elite`,`door`,`ball`,
+null, `mob`,`stone`,`stone`,`elite`,
+`book`, null, `mob`,null,`mob`,
+`mob`,`mob`,`elite`,null, `mob`,
+`mob`,`elite`, `elite`,`haka`, `map`,
+`mob`,`stone`,`elite`,`mob`,null,
+null, null, `stone`,`mob`,`elite`,
+`start`,   null, null,  `mob`,null,
+
+
+41-3
+`mob`,`elite`, `elite`,`door`,`elite`,
+null, null, `stone`,null, `elite`,
+null, `stone`,null,  null, `ball`,
+`elite`, `mob`,`mob`,`mob`,`map`,
+`elite`, null, null,  `mob`,`mob`,
+`elite`, `book`, `stone`,`mob`,`mob`,
+null, null, `mob`,`mob`,`elite`,
+`start`,   null, `haka`,`stone`,`mob`,
+
+
+41-4
+`elite`, null, `mob`,`mob`,`door`,
+`stone`,`ball`,`elite`,`mob`,`haka`,
+`stone`,`elite`, `elite`,`elite`, `map`,
+`book`, `mob`,null,  `stone`,`elite`,
+null, null, `elite`,`elite`, `stone`,
+null, `mob`,`mob`,null, null,
+null, `mob`,`mob`,`mob`,`mob`,
+`start`,   null, null, null,  `mob`,
+
+
+41-5
+`door`,null, `elite`,null, `elite`,
+`mob`,`mob`,`mob`,null, `book`,
+null, `stone`,null,  `mob`,`mob`,
+`mob`,`mob`,`mob`,`elite`, null,
+null, `mob`,`stone`,`ball`,null,
+`stone`,`elite`, `elite`,`elite`, `map`,
+null, `mob`,`haka`,null, `stone`,
+`start`,   null, `elite`,`elite`, `mob`,
+
+
+
+Татьяна, [05.09.2024 6:08]
+42-1
+null, `stylus`, null, `door`, `elite`
+`mob`, `mob`, `ball`, `haka`, `mob`
+null, `mob`, `book`, null, `mob`
+`mob`, `stone`, `stone`, null, `mob`
+null, `elite`, `mob`, `elite`, `mob`
+null, null, `mob`, `stone`, null
+null, `stone`, `elite`, `elite`, `elite`
+`start`, null, `elite`, `mob`, `elite`
+
+Татьяна, [05.09.2024 6:08]
+42-2
+`mob`, `door`, `stone`, `mob`, `mob`,
+`mob`, `elite`, `elite`, null, `elite`,
+`book`, `mob`, null, null, `haka`,
+`elite`, `mob`, `stone`, `elite`, `stone`,
+`mob`, null, `stylus`, null, null,
+null, `stone`, `elite`, null, `ball`,
+null, `elite`, `mob`, `mob`, `mob`,
+`start`, null, null, `elite`, `mob`
+
+Татьяна, [05.09.2024 6:08]
+42-3
+`mob`, `elite`, `door`, `mob`, `elite`,
+`elite`, `elite`, `haka`, null, null,
+`stone`, null, `mob`, null, `elite`,
+`stone`, null, `mob`, `mob`, `stylus`,
+`mob`, `mob`, `mob`, null, `book`,
+null, null, null, `elite`, `stone`,
+null, `mob`, `mob`, `mob`, `ball`,
+`start`, null, `stone`, `elite`, `elite`
+
+Татьяна, [05.09.2024 6:08]
+42-4
+`mob`, null, `stone`, `stone`, `door`,
+`elite`, null, null, `mob`, `mob`,
+`elite`, `elite`, null, `stylus`, `elite`,
+`stone`, `elite`, null, `mob`, null,
+`mob`, `mob`, `elite`, `book`, `mob`,
+null, `mob`, `mob`, `haka`, `ball`,
+null, `elite`, `stone`, `mob`, null,
+`start`, null, `mob`, null, `elite`
+
+Татьяна, [05.09.2024 6:08]
+42-5
+`mob`, `mob`, null, `mob`, `door`,
+null, `elite`, null, `elite`, null,
+`mob`, `mob`, `mob`, `mob`, null,
+`ball`, `mob`, null, `mob`, null,
+`stylus`, `stone`, `elite`, `mob`, `elite`,
+`stone`, `book`, `mob`, `elite`, `elite`,
+null, null, null, `elite`, `haka`,
+`start`, null, `stone`, `elite`, `stone`
