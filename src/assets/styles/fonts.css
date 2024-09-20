@@ -1,16 +1,21 @@
 @font-face {
   font-family: 'Machina';
-  src: url('../fonts/Inter-Regular.woff2') format('woff2'),
-    url('../fonts/Inter-Regular.woff') format('woff');
+  src: url('../fonts/PPNeueMachina-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Machina';
-  src: url('../fonts/Inter-Medium.woff2') format('woff2'),
-    url('../fonts/Inter-Medium.woff') format('woff');
-  font-weight: 500;
+  src: url('../fonts/PPNeueMachina-Ultrabold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Machina';
+  src: url('../fonts/PPNeueMachina-Light.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -19,5 +24,3 @@
   src: url('../fonts/ofont.ru_Boxtoon.woff') format('woff');
   font-style: normal;
 }
-
-

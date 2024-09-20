@@ -7,11 +7,11 @@ null, null, 'mob', 'elite', 'mob',
 null, 'mob', 'stone', 'elite', 'mob',
 null, 'elite', null, 'elite', null,
 null, 'elite', 'elite', null, 'elite',
-'start', null, 'stylus', 'mob', 'mob',
+'start', null, `stylus`, 'mob', 'mob',
 
 
 43-2
-null, 'door', 'stylus', 'mob', 'mob',
+null, 'door', `stylus`, 'mob', 'mob',
 'mob', null, 'mob', 'elite', 'elite',
 'stone', 'mob', 'haka', null, null,
 'elite', null, 'mob', 'stone', 'stone',
@@ -26,13 +26,13 @@ null, 'book', null, 'mob', null,
 'elite', 'book', 'elite', 'mob', 'mob',
 'stone', 'map', 'haka', 'stone', null,
 'elite', 'mob', 'stone', null, 'mob',
-'stylus', 'mob', 'mob', null, 'mob',
+`stylus`, 'mob', 'mob', null, 'mob',
 'elite', 'mob', 'elite', 'elite', null,
 null, 'mob', 'mob', null, 'mob',
 'start', null, null, null, null,
 
 43-4
-'stylus', 'door', 'elite', 'mob', 'mob',
+`stylus`, 'door', 'elite', 'mob', 'mob',
 'elite', null, 'elite', null, 'elite',
 'stone', 'stone', 'map', null, null,
 null, null, 'elite', 'book', null,
@@ -45,7 +45,7 @@ null, 'stone', 'elite', 'elite', 'mob',
 43-5
 'elite', 'door', null, 'elite', 'mob',
 'stone', 'stone', 'mob', 'mob', null,
-'mob', 'stylus', null, null, 'stone',
+'mob', `stylus`, null, null, 'stone',
 'mob', 'elite', 'map', 'mob', null,
 'elite', 'elite', 'stone', 'mob', 'elite',
 'book', 'elite', 'mob', null, 'haka',
@@ -55,7 +55,7 @@ null, 'mob', 'mob', 'elite', null,
 
 44-1
 'elite', 'mob', 'stone', 'door', 'mob',
-'mob', null, null, 'elite', 'stylus',
+'mob', null, null, 'elite', `stylus`,
 'mob', null, 'mob', null, 'elite',
 null, 'mob', 'mob', null, 'stone',
 'stone', 'elite', 'mob', null, 'ball',
@@ -65,7 +65,7 @@ null, 'haka', 'map', 'elite', 'mob',
 
 
 44-2
-'mob', 'door', 'mob', 'stylus', 'stone',
+'mob', 'door', 'mob', `stylus`, 'stone',
 'elite', null, null, 'stone', null,
 'elite', null, 'haka', null, 'mob',
 'mob', 'elite', 'stone', null, 'mob',
@@ -79,7 +79,7 @@ null, null, 'ball', 'mob', 'mob',
 'mob', 'door', 'mob', 'elite', 'stone',
 'mob', 'stone', null, null, 'haka',
 'mob', 'mob', 'elite', 'stone', null,
-'mob', 'stylus', 'elite', 'elite', 'elite',
+'mob', `stylus`, 'elite', 'elite', 'elite',
 'elite', 'mob', 'mob', 'elite', null,
 'elite', 'ball', null, 'mob', 'mob',
 null, 'stone', null, null, null,
@@ -90,7 +90,7 @@ null, 'stone', null, null, null,
 'elite', 'door', 'elite', 'mob', 'stone',
 null, 'mob', 'elite', 'mob', 'mob',
 null, 'stone', 'mob', 'haka', null,
-'stone', 'elite', 'stylus', 'elite', 'elite',
+'stone', 'elite', `stylus`, 'elite', 'elite',
 'map', null, null, 'stone', 'elite',
 'elite', null, 'mob', хр. шар, null,
 null, 'mob', null, 'mob', 'mob',
@@ -104,7 +104,7 @@ null, 'elite', 'stone', null, 'stone',
 'elite', 'mob', 'mob', 'mob', 'mob',
 'elite', 'mob', null, null, 'stone',
 null, 'mob', 'map', null, 'elite', 
-null, 'elite', 'haka', null, 'stylus', 
+null, 'elite', 'haka', null, `stylus`, 
 'start', null, 'mob', 'mob', 'ball',
 
 
@@ -241,7 +241,7 @@ null, 'mob', 'mob', 'mob', 'mob',
 
 
 
-'mob', 'haka', null, 'mob', null,   🔥тут ошибка - нет 'door'а
+'mob', 'haka', null, 'mob', null,  
 'mob', 'mob',null, 'mob', 'mob',
 'mob', 'stone', 'mob', 'elite', null,
 'elite', 'elite', null, 'stone', null,
@@ -275,7 +275,7 @@ null, null, 'haka', 'mob', null,
 
 48-1
 'mob', 'mob', 'door', null, 'elite',
-'hammer', 'mob', null, 'stylus', 'elite',
+'hammer', 'mob', null, `stylus`, 'elite',
 'elite', 'mob', null, 'elite', 'elite',
 'mob', 'stone', 'mob', null, null,
 null, 'stone', 'mob', 'stone', 'mob',
@@ -288,7 +288,7 @@ null, 'elite', 'mob', 'stone', 'elite',
 null, 'door', 'stone', 'mob', 'mob',
 null, 'elite', 'elite', 'elite', 'mob',
 null, 'mob', 'mob', 'mob', 'elite',
-'mob', 'haka', 'stone', 'stylus', null,
+'mob', 'haka', 'stone', `stylus`, null,
 'elite', 'mob', 'mob', null, 'stone',
 'hammer', 'mob', 'book', 'elite', 'elite',
 null, null, 'elite', null, null,
@@ -301,13 +301,13 @@ null, null, 'elite', null, null,
  'mob', 'elite', 'mob', 'mob', null,
 'elite', null, 'hammer', 'mob', 'stone',
 'mob', 'mob', null, null, 'mob',
-'elite', 'elite', null, 'stylus', 'mob',
+'elite', 'elite', null, `stylus`, 'mob',
 null, 'mob', 'elite', 'stone', null,
 'start', null, 'stone', 'elite', 'stone',
 
 
 48-4
-'stylus', null, null, null, 'door',
+`stylus`, null, null, null, 'door',
 'elite', 'elite', 'mob', 'mob', 'mob',
 'mob', null, null, 'mob', 'elite',
 'mob', 'mob', 'stone', 'mob', 'book',
@@ -319,7 +319,7 @@ null, null, 'stone', 'mob', 'hammer',
 
 48-5
 'haka', 'mob', 'door', null, 'mob',
-'stylus', 'elite', 'elite', 'elite', null,
+`stylus`, 'elite', 'elite', 'elite', null,
 'stone', 'mob', 'stone', null, 'elite',
 'mob', null, 'stone', 'elite', 'hammer',
 'elite', 'elite', null, 'elite', 'mob',
@@ -335,14 +335,14 @@ null, 'stone'. 'elite', 'mob', 'elite',
 null, 'stone', 'stone', 'elite', null,
 'ball', 'elite', null, 'haka', 'mob',
 'mob', 'stone', null, 'mob', null,
-null, 'mob'. null, null, 'stylus',
+null, 'mob'. null, null, `stylus`,
 'start', null, 'elite', 'elite', 'elite',
 
 
 49-2
 null, 'mob', null, 'elite', 'door',
 'elite', 'elite', 'elite', null, 'elite',
-'elite', 'stone', 'mob', 'stylus', 'stone',
+'elite', 'stone', 'mob', `stylus`, 'stone',
 null, 'mob', 'mob', 'mob', null,
 'mob', null, 'stone', 'haka', 'elite',
 'mob', 'ball', 'elite', 'mob', 'hammer',
@@ -351,7 +351,7 @@ null, null, 'mob', null, 'mob',
 
 
 49-3
-null, null, 'hammer', 'door', 'stylus',
+null, null, 'hammer', 'door', `stylus`,
 'elite', 'elite', 'mob', 'elite', 'mob',
 'elite', 'stone', 'elite', 'mob', 'stone',
 'stone', null, 'mob', 'mob', 'mob',
@@ -366,7 +366,7 @@ null, null, 'mob', 'elite', 'stone',
 'elite', 'haka', 'elite', 'elite', 'mob',
 null, 'mob', 'mob', null, 'stone',
 null, 'mob', 'elite', null, 'mob',
-'stone', 'stylus', 'hammer', 'mob', 'elite',
+'stone', `stylus`, 'hammer', 'mob', 'elite',
 'elite', null, 'elite', 'mob', null,
 null, 'elite', 'mob', null, 'stone',
 'start', null, 'elite', 'mob', 'stone',
@@ -388,7 +388,7 @@ null, 0, 0, 0, 0,
 null, 'hammer', 'elite', 'elite', null,
 null, 'mob', 'mob', 'elite', 'mob',
 'elite', 'stone'. 'stone', 'elite', null,
-null, 'elite', 'mob', 'stylus', 'mob',
+null, 'elite', 'mob', `stylus`, 'mob',
 'mob', 'stone', 'haka', null, 'elite',
 null, null, 0, 'stone', 'mob',
 'start', null, 0, 'elite', null,
@@ -400,7 +400,7 @@ null, null, 0, 'stone', 'mob',
 'mob', null, null, 'stone', 'hammer',
 null, 'elite', 'map', null, null,
 null, null, 'elite', 'mob', 'stone',
-'elite', 'mob', null, 'stylus', 'elite',
+'elite', 'mob', null, `stylus`, 'elite',
 null, 'elite', 'mob', 'mob', 'elite',
 'start', null, 'stone', 'mob', 'haka',
 
@@ -408,7 +408,7 @@ null, 'elite', 'mob', 'mob', 'elite',
 50-3
 null, 'mob', 'door', 'mob', null,
 'elite', 'elite', 'stone', 'elite', 'mob',
-null, 'haka', null,, null, 'stylus',
+null, 'haka', null,, null, `stylus`,
 'hammer', 'mob', 'stone', 'stone', null,
 'mob', null, 'mob', 'map', 'mob',
 'elite', 'elite', 'mob', 'stone', null,
@@ -424,15 +424,291 @@ null, 'stone', 'elite', 'door', 'map',
 null, 'mob', 'elite', 'mob', 'mob',
 null, 'mob', 'mob', 'mob', 'elite',
 null, 'mob', null, null, 'elite',
-'start', null, 'stone', 'hammer', 'stylus',
+'start', null, 'stone', 'hammer', `stylus`,
 
 
 50-5
 'mob', 'elite', 'map', 'door', 'mob',
-'hammer', 'stone', 'stylus', 'stone', 'elite',
+'hammer', 'stone', `stylus`, 'stone', 'elite',
 null, 'mob', 'mob', 'elite', null,
 'haka', 'stone', 'elite', null, 'elite',
 null, 'mob', 'mob', null, null,
 'elite', null, 'elite', 'elite', 'elite',
 null, 'mob', null, 'mob', 'mob',
 'start', null, 'stone', null, 'mob',
+
+
+
+2 часть
+
+
+36-1
+null, `elite`, `haka`, `elite`, `door`,
+null, `mob`, `elite`, `elite`, null,
+`mob`, null, `mob`, `mob`, `mob`,
+`mob`, `mob`, `elite`, null, `elite`,
+null, `stone`, `stylus`, `stone`, null,
+`elite`, null, `mob`, `mob`, `stone`,
+null, null, `ball`, `stone`, null,
+`start`, null, null, `mob`, `mob`,
+
+
+36-2
+null, `door`, `mob`, `stone`, null,
+null, `elite`, `ball`, `mob`, null,
+`elite`, `mob`, `stylus`, `elite`, `mob`,
+`mob`, `mob`, null, `mob`, `mob`,
+`stone`, null, `mob`, null, `elite`,
+`haka`, `elite`, null, `elite`, `elite`,
+null, `mob`, `stone`, null, null,
+`start`, null, null, `stone`, `mob`,
+
+
+36-3
+`stone`, `door`, `mob`, `stone`, `elite`,
+`mob`, `mob`, `stone`, null, `mob`,
+null, `mob`, `mob`, `elite`, `mob`,
+null, null, `mob`, `elite`, null,
+null, null, `mob`, `elite`, `elite`,
+null, null, `haka`, `ball`, `stylus`,
+null, `mob`, `elite`, `mob`, `elite`,
+`start`, null, null, `stone`, null,
+
+
+36-4
+`stone`, null, `door`, `mob`, null,
+null, `stone`, null, `mob`, `elite`,
+null, `mob`, `elite`, null, `mob`,
+null, `elite`, `elite`, null, `haka`,
+null, `stone`, `stone`. `mob`, `stylus`,
+null, `mob`, `elite`, `mob`, `mob`,
+null, `mob`, `mob`, `mob`, `elite`,
+`start`, null, `ball`, `elite`, null,
+
+
+36-5
+`ball`, null, `door`, `mob`, `elite`,
+null, `elite`, `stone`, null, null,
+`mob`, null, `elite`, `mob`, `haka`,
+`elite`, `mob`, `stone`, null, null,
+null, null, `mob`, `mob`, `elite`,
+`elite`, `elite`, null, null, `mob`,
+null, `mob`, `mob`, `mob`, `mob`,
+`start`, null, null, `stone`, `stone`,
+
+
+37-1
+`door`, 0, `stone`, `mob`, `stone`,
+`mob`, null, 0, `elite`, 0,
+`elite`, null, `mob`, 0, null,
+null, `haka`, `elite`, 0, `stone`,
+`mob`, `elite`, `book`, `stone`, `elite`,
+0, 0, 0, 0, 0,
+null, 0, `mob`, `mob`, 0,
+`start`, null, `elite`, `mob`, `elite`,
+
+
+37-2
+`stylus`, `elite`, `stone`, `door`, `elite`,
+null, null, null, `mob`, null,
+null, `mob`, null, `mob`, `mob`,
+null, `elite`, `mob`, `elite`, `stone`,
+`mob`, `stone`, null, `mob`, null,
+`book`, null, `mob`, `stone`, `elite`,
+null, `elite`, `elite`, null, `mob`,
+`start`, null, `mob`, `mob`, `haka`,
+
+
+37-3
+null, `door`, `mob`, `mob`, `mob`,
+`mob`, null. `elite`, `elite`, null,
+`elite`, `stylus`, null, null, `mob`,
+null, `mob`, `book`, `mob`, null,
+`stone`, null, null, `elite`, `haka`,
+`stone`, `elite`, `stone`, null, `mob`,
+null, `elite`, `stone`, `elite`, `mob`,
+`start`, null, `mob`, `mob`, null,
+
+
+37-4
+`stone`, `door`, `mob`, `haka`, `elite`,
+null, `stone`, `book`, null, `mob`,
+`elite`, null, `mob`, `stone`, `elite`,
+null, `stylus`, null, `mob`, `mob`,
+`mob`, null, `elite`, `elite`, null,
+null, null, `mob`, `stone`, `elite`,
+null, `mob`, `mob`, `elite`, `mob`,
+`start`, null, `mob`, null, null,
+
+
+37-5
+null, `mob`, `elite`, `stylus`, `door`,
+`stone`, null, null, `stone`, `mob`,
+`book`, `stone`, `mob`, null, `stone`,
+null, `mob`, `mob`, `haka`, null,
+`elite`, `elite`, `mob`, `elite`, `mob`,
+`elite`, `mob`, `mob`, null, null,
+null, `mob`, null, `mob`, `elite`,
+`start`, null, `elite`, null, null,
+
+
+38-1
+`door`, `elite`, `mob`, null, `elite`,
+`mob`, `stone`, null, `stone`, `mob`,
+`elite`, null, `mob`, `mob`, `haka`,
+`elite`, `ball`, `mob`, `mob`, `elite`,
+null, `mob`, `elite`, null, `mob`,
+null, `stone`, `mob`, null, null,
+null, null, `stone`, null, null,
+`start`, null, `elite`, `map`, `mob`,
+
+38-2
+`mob`, `stone`, `door`, `mob`, `elite`,
+`mob`, null, `mob`, null, null,
+null, `stone`, `mob`, null, null,
+`elite`, `elite`, null, `elite`, `mob`,
+`haka`, null, `mob`, `map`, `stone`,
+`elite`, null, `mob`, `stone`, null,
+null, null, null, `elite`, `mob`,
+`start`, null, `mob`, `mob`, `elite`,
+
+
+38-3
+`door`, `mob`, `elite`, `elite`, null,
+`mob`, null, `mob`, `elite`, `mob`,
+null, `mob`, null, `map`, null,
+`mob`, `elite`, null, `ball`, `stone`,
+`mob`, null, null, `elite`. `elite`,
+null, `mob`, null, `stone`, `elite`,
+null, `mob`, `stone`, null, `stone`,
+`start`, null, `haka`, `mob`, `mob`,
+
+
+38-4
+`door`, `stone`, null, null, `map`,
+`mob`, `elite`, `mob`, `elite`, null,
+`mob`, `mob`, `mob`, null, `elite`,
+`mob`, `mob`, `elite`, null, `stone`,
+`stone`, `mob`, null, `haka`, null,
+`ball`, `mob`, `elite`, `elite`, `mob`,
+null, null, null, null, `elite`,
+`start`, null, null, `mob`, `stone`,
+
+
+38-5
+`elite`, `stone`, `door`, `mob`, `stone`,
+null, null, `elite`, `elite`, `mob`,
+`mob`, null, `mob`, `mob`, `ball`,
+null, `elite`, null, `map`, null,
+`stone`, `mob`, `mob`, `elite`, null,
+`elite`, `mob`, `mob`, null, `mob`,
+null, null, `elite`, null, `stone`,
+`start`, null, `mob`, `haka`, null,
+
+
+39-1
+`door`, `elite`, `elite`, `elite`, `elite`,
+null, null, `mob`, `mob`, `map`,
+`mob`, `stone`, `book`, null, `elite`,
+`mob`, null, `stone`, `mob`, `elite`,
+`haka`, `mob`, `mob`, `stone`, null,
+`mob`, 0, 0, 0, 0,
+null, 0, `mob`, 0, 0,
+`start`, null, `elite`, `mob`, `stone`,
+
+
+39-2
+`stone`, null, `mob`, null, `door`,
+null, `elite`, `map`, `mob`, null,
+null, `elite`, `stone`, `elite`, `mob`,
+null, `book`, null, null, null,
+`elite`, `mob`, null, `mob`, `mob`,
+`haka`, `mob`, null, `elite`, `mob`,
+null, `mob`, `stone`, `elite`, `stone`,
+`start`, null, `mob`, `mob`, `elite`,
+
+
+39-3
+`door`, `mob`, `stone`, `stone`, `elite`,
+`mob`, `mob`, null, `haka`, `mob`,
+`mob`, `mob`, `mob`, null, `mob`,
+null, `elite`, null, null, `elite`,
+`stone`, null, null, `stone`, null,
+`mob`, null, null, `elite`, `elite`,
+null, `elite`, `elite`, `mob`, `elite`,
+`start`, null, null, `book`, `map`,
+
+
+39-4
+`elite`, `stone`, `mob`, `door`, `mob`,
+`elite`, `stone`, `elite`, `mob`, `elite`,
+`mob`, null, null, `haka`, `elite`,
+`map`, null, null, `mob`, null,
+`stone`, null, `mob`, null, `elite`,
+`mob`, null, `mob`, null, `mob`,
+null, null, `mob`, `book`, `mob`,
+`start`, null, null, `stone`, `elite`,
+
+
+39-5
+null, `elite`, `door`, `elite`, null,
+`mob`, `mob`, `mob`, `stone`, `elite`,
+null, null, `stone`, `book`, `mob`,
+null, `elite`, `mob`, `mob`, `stone`,
+`elite`, `map`, `elite`, `mob`, null,
+null, `mob`, null, null, `mob`,
+null, `stone`, null, `mob`, `mob`,
+`start`, null, null, null, `haka`,
+
+
+40-1
+null, null, `elite`, `elite`, `door`,
+`elite`, 0, 0, 0, 0,
+`mob`, 0, 0, 0, `haka`,
+`stone`, null, `stone`, 0, 0,
+0, 0, 0, 0, 0,
+0, `stone`, 0, `elite`, 0,
+null, `stone`, `ball`, 0, 0,
+`start`, null, 0, 0, `elite`,
+
+
+40-2
+null, `mob`, `elite`, `door`, `elite`,
+null, `elite`, `mob`, `stone`, null,
+`mob`, null, null, `stone`, null,
+`stone`, `mob`, null, `mob`, null,
+`mob`, `mob`, null, null, `ball`,
+`elite`, `elite`, null, `mob`, `mob`,
+null, `haka`, `elite`, `mob`, `book`,
+`start`, null, `elite`, `stone`, `mob`,
+
+
+40-3
+`door`, `elite`, `stone`, `elite`, `stone`,
+`mob`, `book`, `mob`, `stone`, `mob`,
+`mob`, null, null, `mob`, null,
+null, `mob`, `mob`, `elite`, `mob`,
+`mob`, null, null, null, null,
+`mob`, `mob`, `stone`, 0, `elite`,
+null, `elite`, null, `elite`, 0,
+`start`, null, null, `elite`, `haka`,
+
+40-4
+`mob`, `elite`, `stone`, `door`, `mob`,
+`mob`, null, `mob`, `elite`, null,
+`mob`, `mob`, `elite`, `mob`, `haka`,
+null, null, null, null, `elite`,
+`elite`, null, `ball`, `mob`, `elite`,
+`mob`, `stone`, `elite`, null, `stone`,
+null, null, null, null, `mob`,
+`start`, null, `mob`, `book`, `stone`,
+
+40-5
+`stone`, `door`, `mob`, `mob`, null,
+`elite`, `elite`, `elite`, null, null,
+`mob`, `ball`, null, null, `mob`,
+`elite`, null, null, null, `book`,
+`stone`, null, `mob`, `mob`, `mob`,
+`stone`, `mob`, `elite`, `elite`, `elite`,
+null, `mob`, `haka`, `elite`, `elite`,
+`start`, null, `stone`, null, null,
