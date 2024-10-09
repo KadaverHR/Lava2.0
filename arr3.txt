@@ -107,3 +107,14 @@ null, `elite`, null, `elite`, null,
 `stone`, `book`, `mob`, `elite`, `elite`,
 null, null, null, `elite`, `haka`,
 `start`, null, `stone`, `elite`, `stone`
+
+
+
+`mob`, `haka`, `door`, null, null,
+null, `mob`, `stone`, `book`, null,
+`mob`, `elite`, `mob`, 'hammer', `stone`,
+`mob`, `mob`, `ball`, null, `mob`,
+null, `elite`, null, `stone`, `mob`,
+`mob`, `mob`, `elite`, `elite`, null,
+null, `elite`, `stone`, `elite`, `elite`,
+`start`, null, `mob`, `elite`, null

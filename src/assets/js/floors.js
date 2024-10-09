@@ -1,5 +1,5 @@
 
-export  function floorsArray(thisCoutFloor) {
+export function floorsArray(thisCoutFloor) {
 
   let floor = new Array(50)
 
@@ -893,7 +893,7 @@ export  function floorsArray(thisCoutFloor) {
       'mob', 'mob', 'ball', 'map', 'mob',
       null, null, 'mob', 'elite', null,
       'mob', 'mob', null, 'stone', 'elite',
-      null, 'stone', null, 'stone', 'mob',
+      null, 'stone', null, 'book', 'mob',
       'start', null, null, null, null
     ],
     //  3
@@ -2070,12 +2070,12 @@ export  function floorsArray(thisCoutFloor) {
   ]
   floor[37] = [
     // 1
-    [`door`, 0, `stone`, `mob`, `stone`,
-      `mob`, null, `mob`, `elite`, 0,
-      `elite`, null, `mob`, 0, null,
+    [`door`, `mob`, `stone`, `mob`, `stone`,
+      `mob`, null, `mob`, `elite`, null,
+      `elite`, null, `mob`, null, null,
       null, `haka`, `elite`, null, `stone`,
       `mob`, `elite`, `book`, `stone`, `elite`,
-      0, `mob`, null, null, null,
+      `stylus`, `mob`, null, null, null,
       null, `mob`, `mob`, `mob`, null,
       `start`, null, `elite`, `mob`, `elite`],
     //  2
@@ -2207,7 +2207,7 @@ export  function floorsArray(thisCoutFloor) {
       null, null, `stone`, `book`, `mob`,
       null, `elite`, `mob`, `mob`, `stone`,
       `elite`, `map`, `elite`, `mob`, null,
-      null, `mob`, null, null, `mob`,
+      `elite`, `mob`, null, null, `mob`,
       null, `stone`, null, `mob`, `mob`,
       `start`, null, null, null, `haka`],
   ]
@@ -2238,7 +2238,7 @@ export  function floorsArray(thisCoutFloor) {
       null, `mob`, `mob`, `elite`, `mob`,
       `mob`, null, null, null, null,
       `mob`, `mob`, `stone`, null, `elite`,
-      null, `elite`, `elite`, `elite`, 0,
+      null, `elite`, `elite`, `elite`, null,
       `start`, null, null, `elite`, `haka`],
     // 4
     [`mob`, `elite`, `stone`, `door`, `mob`,
@@ -2509,15 +2509,15 @@ export  function floorsArray(thisCoutFloor) {
       null, 'mob', 'stone', 'haka', 'mob',
       'start', null, null, null, 'hammer'],
     // 45 - 5
-    [0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0,
-      'start', 0, 0, 0, 0],
-  ]
+    [`mob`, `haka`, `door`, null, null,
+      null, `mob`, `stone`, `book`, null,
+      `mob`, `elite`, `mob`, 'hammer', `stone`,
+      `mob`, `mob`, `ball`, null, `mob`,
+      null, `elite`, null, `stone`, `mob`,
+      `mob`, `mob`, `elite`, `elite`, null,
+      null, `elite`, `stone`, `elite`, `elite`,
+      `start`, null, `mob`, `elite`, null
+    ]]
 
 
   floor[46] = [
