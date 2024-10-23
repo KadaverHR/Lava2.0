@@ -2215,7 +2215,7 @@ export function floorsArray(thisCoutFloor) {
   floor[40] = [
     // 1
     [null, null, `elite`, `elite`, `door`,
-      `elite`, 0, 0, 0, 0,
+      `elite`, `mob`, 0, 0, `elite`,
       `mob`, 0, 0, 0, `haka`,
       `stone`, null, `stone`, 0, 0,
       0, 0, 0, 0, 0,
