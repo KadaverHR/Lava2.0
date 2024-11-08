@@ -96,9 +96,9 @@ $(document).ready(function () {
       let count = -1
       let i = -1
 
-      let mapTitle = document.querySelector('.floor__map-title')
+      // let mapTitle = document.querySelector('.floor__map-title')
 
-      mapTitle.innerText = 'Этаж ' + thisCoutFloor
+      // mapTitle.innerText = 'Этаж ' + thisCoutFloor
 
       let hakaBox = document.createElement('div')
       hakaBox.classList.add('haka__box')
@@ -181,6 +181,12 @@ $(document).ready(function () {
           case 0:
             hakaBlock.innerHTML = `	<div value = "block" class="haka" >
     <img src="assets/img/0.png" >
+    </div>`
+            break;
+
+          case null:
+            hakaBlock.innerHTML = `	<div value = "block" class="haka" >
+    <img src="assets/img/null2.png" >
     </div>`
             break;
 
