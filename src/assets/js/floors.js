@@ -692,7 +692,7 @@ export function floorsArray(thisCoutFloor) {
       null, null, null, 'mob', 'stylus',
       'stone', 'elite', 'stone', null, 'elite',
       'stone', 'stone', null, null, 'mob',
-      'stone', 'book', 'elite', 'mob', 'stone',
+      'mob', 'book', 'elite', 'mob', 'stone',
       null, null, null, 'haka', 'mob',
       'start', null, 'mob', null, null
     ],
@@ -2171,8 +2171,8 @@ export function floorsArray(thisCoutFloor) {
       `mob`, `stone`, `book`, null, `elite`,
       `mob`, null, `stone`, `mob`, `elite`,
       `haka`, `mob`, `mob`, `stone`, null,
-      `mob`, 0, 0, 0, 0,
-      null, 0, `mob`, 0, 0,
+      `mob`, null, null, null, null,
+      null, `mob`, `mob`, null, null,
       `start`, null, `elite`, `mob`, `stone`],
     //  2
     [`stone`, null, `mob`, null, `door`,
@@ -2215,13 +2215,13 @@ export function floorsArray(thisCoutFloor) {
   floor[40] = [
     // 1
     [null, null, `elite`, `elite`, `door`,
-      `elite`, `mob`, 0, 0, `elite`,
-      `mob`, 0, 0, 0, `haka`,
-      `stone`, null, `stone`, 0, 0,
-      0, 0, 0, 0, 0,
-      0, `stone`, 0, `elite`, 0,
-      null, `stone`, `ball`, 0, 0,
-      `start`, null, 0, 0, `elite`],
+      `elite`, `mob`, `elite`, null, `elite`,
+      `mob`, null, `mob`, null, `haka`,
+      `stone`, null, `stone`, `mob`, `mob`,
+      `mob`, null, null, null, null,
+      null, `stone`, `book`, `elite`, `mob`,
+      null, `stone`, `ball`, `mob`, `mob`,
+      `start`, null, `mob`, `mob`, `elite`],
     //  2
     [null, `mob`, `elite`, `door`, `elite`,
       null, `elite`, `mob`, `stone`, null,
@@ -2363,15 +2363,27 @@ export function floorsArray(thisCoutFloor) {
       `start`, null, `stone`, `elite`, `stone`
     ],
     //  5
+    // [
+    //   `door`, null, `elite`, null, `elite`,
+    //   `mob`, `mob`, `mob`, null, `book`,
+    //   null, `stone`, null, `mob`, `mob`,
+    //   `mob`, `mob`, `mob`, `elite`, null,
+    //   null, `mob`, `stone`, `ball`, null,
+    //   `stone`, `elite`, `elite`, `elite`, `map`,
+    //   null, `mob`, `haka`, null, `stone`,
+    //   `start`, null, `elite`, `elite`, `mob`,
+    // ],
+
+    //  6
     [
-      `door`, null, `elite`, null, `elite`,
-      `mob`, `mob`, `mob`, null, `book`,
-      null, `stone`, null, `mob`, `mob`,
-      `mob`, `mob`, `mob`, `elite`, null,
-      null, `mob`, `stone`, `ball`, null,
-      `stone`, `elite`, `elite`, `elite`, `map`,
-      null, `mob`, `haka`, null, `stone`,
-      `start`, null, `elite`, `elite`, `mob`,
+      `mob`, null, `stone`, `stone`, `door`,
+      `elite`, null, null, `mob`, `mob`,
+      `elite`, `elite`, null, `stylus`, `elite`,
+      `stone`, `elite`, null, `mob`, null,
+      `mob`, `mob`, `elite`, `book`, `mob`,
+      null, `mob`, `mob`, `haka`, `ball`,
+      null, `elite`, `stone`, `mob`, null,
+      `start`, null, `mob`, null, `elite`,
     ],
   ]
 
@@ -2517,7 +2529,8 @@ export function floorsArray(thisCoutFloor) {
       `mob`, `mob`, `elite`, `elite`, null,
       null, `elite`, `stone`, `elite`, `elite`,
       `start`, null, `mob`, `elite`, null
-    ]]
+    ]
+  ]
 
 
   floor[46] = [
