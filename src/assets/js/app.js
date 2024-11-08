@@ -2,9 +2,10 @@
 import './floors.js';
 import { floorsArray } from "./floors.js"
 import $ from 'jquery'
+import html2canvas from 'html2canvas';
+
 
 $(document).ready(function () {
-
 
   //меню 
 
@@ -74,7 +75,7 @@ $(document).ready(function () {
 
     addMap(thisCoutFloor)
 
-    console.log(thisCoutFloor)
+    // console.log(thisCoutFloor)
   })
 
 
@@ -82,13 +83,13 @@ $(document).ready(function () {
     location.reload()
   })
 
-  console.log(floorsArray(14))
+  // console.log(floorsArray(14))
 
   let addMap = (thisCoutFloor) => {
     let l = 1
-    console.log(thisCoutFloor)
+    // console.log(thisCoutFloor)
     let hakaList = floorsArray(thisCoutFloor)
-    console.log(hakaList)
+    // console.log(hakaList)
     hakaList.forEach(element => {
 
 
@@ -102,11 +103,13 @@ $(document).ready(function () {
 
       let hakaBox = document.createElement('div')
       hakaBox.classList.add('haka__box')
+      hakaBox.setAttribute('id', `${thisCoutFloor}-${l}`)
 
 
-      let hakaBoxTitle = document.createElement('div')
+      let hakaBoxTitle = document.createElement('button')
       hakaBoxTitle.classList.add('haka__box-title')
       hakaBoxTitle.innerHTML = `Этаж ${thisCoutFloor} Версия ${l}`
+      // hakaBoxTitle.setAttribute('id', `${thisCoutFloor}-${l}`)
       hakaBox.append(hakaBoxTitle)
 
 
@@ -206,5 +209,44 @@ $(document).ready(function () {
   }
 
 
+
+
+  ///снимок экрана
+
+
+
+
+  // html2canvas(document.getElementById('map'), {
+  //   useCORS: true,
+  //   taintTest: false,
+  //   allowTaint: true
+  // }).then(canvas => {
+  //   // Полученный снимок мира легко редактируется!
+
+  //   // Затем инициируем скачивание PNG-изображения
+  //   const link = document.createElement('a');
+  //   link.download = 'div-screenshot.png';
+  //   link.href = canvas.toDataURL();
+  //   link.click();
+  // });
+
+
+
+  $('.floor__map').on('click', '.haka__box-title', function () {
+    let floorID = this.closest('.haka__box').getAttribute('id');
+    // console.log('floorID', floorID)
+
+    html2canvas(document.getElementById(floorID), {
+      useCORS: true,
+      taintTest: false,
+      allowTaint: true
+    }).then(canvas => {
+      // Затем инициируем скачивание PNG-изображения
+      const link = document.createElement('a');
+      // link.download = 'div-screenshot.png';
+      // link.href = canvas.toDataURL();
+      link.click();
+    });
+  });
 
 })
